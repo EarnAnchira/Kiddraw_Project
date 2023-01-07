@@ -1,5 +1,12 @@
 body {
   margin: 0;
+  background-image: url(/source_picture/background/bg_top.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #1C0A25;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

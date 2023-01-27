@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  margin: 0;
+  padding: 30px;
+  background-color: #1C0A25;
+  overflow: hidden;
+}
+
+canvas {
+    align-items: center;
+    box-shadow: -3px 2px 9px 6px black;
+    cursor: pointer;
+    background-color: cornsilk ;
+}
+
+.tool {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.tool .color-field {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0 2px;
+    align-self: center;
+}
+
+.tool .button {
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.color-picker {
+    align-self: center;
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    margin: 0 5px;
+}

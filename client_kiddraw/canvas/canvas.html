@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>CANVAS - Kids Draw Club</title>
+
+        <link rel="stylesheet" href="canvas.css">
+    </head>
+
+    <body>
+        <div class="field"> 
+            <canvas id="canvas"></canvas>
+            
+            <div class="tool">
+                <button onclick="undo_canvas()" type="button" class="button"> UNDO </button>
+                <button onclick="clear_canvas()" type="button" class="button"> CLEAR </button>
+
+                <div onClick="change_color(this)" class="color-field" style="background: salmon;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: skyblue;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: greenyellow;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: mediumpurple;"></div>
+
+                <input onInput="draw_color = this.value" type="color" class="color-picker">
+                <input type="range" min="1" max="100" class="pen-range" oninput="draw_width = this.value">
+                
+                <button type="button" class="button"> SAVE </button>
+            </div>
+
+
+        </div>
+        
+    </body>
+
+    <script src="canvas.js"></script>
+
+</html>

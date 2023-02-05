@@ -19,8 +19,8 @@ export default function Navbar() {
                     </form>
 
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active ">
-                            <a class="nav-link" href="!#"> HOME <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="!#"> HOME </a>
                         </li>
 
                         <li class="nav-item">
@@ -32,7 +32,7 @@ export default function Navbar() {
                         </li>
                     </ul>
 
-                    <img src="assest\navbarImg\User-avatar-whiteBg.png" alt="" roundedCircle={true} style={{ borderRadius: "50%", height: "35px", width: "35px"}}></img>
+                    <img src="assest\navbarImg\User-avatar-whiteBg.png" alt="" roundedCircle={true} style={{ borderRadius: "50%", height: "35px", width: "35px", margin: "0px 10px"}}></img>
                 </div>
             </nav>
         </div>

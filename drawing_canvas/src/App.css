@@ -1,8 +1,29 @@
-.App {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  margin: 0;
+  background-color: #1C0A25;
+  overflow: hidden;
 }
 
+.canvas {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tool {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.tool .button {
+  font-family: 'Montserrat', sans-serif;
+  align-self: center;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 15px;
+}

@@ -7,10 +7,20 @@ function App() {
     <div className="App">
       <Navbar/>
 
-      <Canvas
-        width = {700}
-        height = {500}
-      />
+      <div className="canvas">
+        <Canvas
+          width = {500}
+          height = {700}
+        />
+      </div>
+
+
+      <div className="tool">
+        <button type="button" className="button"> UNDO </button>
+        <button type="button" className="button"> CLEAR </button>
+        <button type="button" className="button"> SAVE </button>
+      </div>
+
     </div>
   );
 }

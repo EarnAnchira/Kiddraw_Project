@@ -40,5 +40,6 @@ const Canvas = ({width,height}) => {
 export default Canvas;
 
 const canvas_style = {
-    background: "cornsilk"
+    background: "#C69C6D",
+    borderRadius: "15px"
 }

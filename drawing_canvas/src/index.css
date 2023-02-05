@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  margin: 0;
+  background-image: url(componants/top_bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1C0A25;
+
+  font-family: 'Montserrat', sans-serif;
+}

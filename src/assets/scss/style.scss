@@ -1,0 +1,50 @@
+#container{
+    margin-top: 50px;
+}
+
+#body{
+    position:absolute;
+    width:794px;
+    height:1123px;
+    background-image: url("../img/body.png");
+    background-repeat: no-repeat;
+}
+
+#background{
+    
+    position: absolute;
+    bottom: 1246px;
+    left: 100px;
+    position: absolute;
+}
+
+#btn{
+    display: flex;
+    margin-top: 900px;
+}
+
+#hair{
+    position:absolute;
+    width:794px;
+    height:1123px;
+}
+
+.hair1{
+    background-image: url(../img/hair/hair1.png);
+    background-repeat: no-repeat;
+}
+
+.hair2{
+    background-image: url(../img/hair/hair2.png);
+    background-repeat: no-repeat;
+}
+
+$items: ("hair": 2);
+
+@each $item, $total in $items {
+    @for $i from 1 through $total {
+        .#{$item}#{$i} {
+            background-image: url(../img/#{$item}/#{$item}#{$i}.png);
+        }
+    }
+}
